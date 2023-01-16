@@ -76,7 +76,7 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "copyright": "Copyright © 2022 Thundra, Inc. Built with Docusaurus.",
+      "copyright": "Copyright © 2023 Thundra, Inc. Built with Docusaurus.",
       "links": []
     },
     "prism": {

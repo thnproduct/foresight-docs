@@ -9,16 +9,16 @@
   "permalink": "/features/test-runs",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 6,
+  "sidebarPosition": 8,
   "frontMatter": {
     "title": "Test runs",
     "slug": "/features/test-runs",
-    "sidebar_position": 6
+    "sidebar_position": 8
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "↳ Process trace chart",
-    "permalink": "/features/process-trace-chart"
+    "title": "Rules",
+    "permalink": "/features/rules"
   },
   "next": {
     "title": "↳ Test logs",

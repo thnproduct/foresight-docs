@@ -72,9 +72,27 @@
           },
           {
             "type": "link",
+            "label": "🆕 Test dashboard",
+            "href": "/features/test-dashboard",
+            "docId": "features/test-dashboard"
+          },
+          {
+            "type": "link",
+            "label": "Workflow dashboard",
+            "href": "/features/workflow-dashboard",
+            "docId": "features/workflow-dashboard"
+          },
+          {
+            "type": "link",
             "label": "Pull request view",
             "href": "/features/pull-request-view",
             "docId": "features/pull-request-view"
+          },
+          {
+            "type": "link",
+            "label": "↳ Process trace chart",
+            "href": "/features/process-trace-chart",
+            "docId": "features/process-trace-chart"
           },
           {
             "type": "link",
@@ -96,9 +114,9 @@
           },
           {
             "type": "link",
-            "label": "↳ Process trace chart",
-            "href": "/features/process-trace-chart",
-            "docId": "features/process-trace-chart"
+            "label": "Rules",
+            "href": "/features/rules",
+            "docId": "features/rules"
           },
           {
             "type": "link",
@@ -111,12 +129,6 @@
             "label": "↳ Test logs",
             "href": "/features/test-logs",
             "docId": "features/test-logs"
-          },
-          {
-            "type": "link",
-            "label": "Rules",
-            "href": "/features/rules",
-            "docId": "features/rules"
           },
           {
             "type": "link",
@@ -279,6 +291,12 @@
       "description": "Roles",
       "sidebar": "sidebar"
     },
+    "features/test-dashboard": {
+      "id": "features/test-dashboard",
+      "title": "🆕 Test dashboard",
+      "description": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/zw38ZZ7YrOY\" title=\"YouTube video player\" frameborder=\"0\"",
+      "sidebar": "sidebar"
+    },
     "features/test-logs": {
       "id": "features/test-logs",
       "title": "↳ Test logs",
@@ -289,6 +307,12 @@
       "id": "features/test-runs",
       "title": "Test runs",
       "description": "Your tests will be captured when you trigger your CI build. You will see your runs will be listed under the Test Runs menu.",
+      "sidebar": "sidebar"
+    },
+    "features/workflow-dashboard": {
+      "id": "features/workflow-dashboard",
+      "title": "Workflow dashboard",
+      "description": "Docs in progress",
       "sidebar": "sidebar"
     },
     "features/workflow-metrics": {

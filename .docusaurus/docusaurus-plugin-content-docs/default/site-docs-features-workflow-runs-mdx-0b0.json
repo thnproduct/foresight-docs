@@ -9,11 +9,11 @@
   "permalink": "/features/workflow-runs",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 3,
+  "sidebarPosition": 6,
   "frontMatter": {
     "title": "Workflow runs",
     "slug": "/features/workflow-runs",
-    "sidebar_position": 3
+    "sidebar_position": 6
   },
   "sidebar": "sidebar",
   "previous": {

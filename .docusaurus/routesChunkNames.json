@@ -129,7 +129,7 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---markdown-page-393-028"
   },
-  "/-2b5": {
+  "/-aba": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---935-fcf"
   },
@@ -181,6 +181,10 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---features-team-managementf-5-c-28a"
   },
+  "/features/test-dashboard-cdd": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---features-test-dashboard-7-fb-149"
+  },
   "/features/test-logs-6bf": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---features-test-logs-68-e-149"
@@ -188,6 +192,10 @@
   "/features/test-runs-01c": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---features-test-runsc-21-fa1"
+  },
+  "/features/workflow-dashboard-061": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---features-workflow-dashboard-3-ed-c6b"
   },
   "/features/workflow-metrics-9a5": {
     "component": "component---theme-doc-item-178-a40",

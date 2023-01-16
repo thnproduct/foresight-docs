@@ -9,11 +9,11 @@
   "permalink": "/features/workflow-metrics",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 7,
   "frontMatter": {
     "title": "↳ Workflow metrics",
     "slug": "/features/workflow-metrics",
-    "sidebar_position": 4
+    "sidebar_position": 7
   },
   "sidebar": "sidebar",
   "previous": {
@@ -21,7 +21,7 @@
     "permalink": "/features/workflow-runs"
   },
   "next": {
-    "title": "↳ Process trace chart",
-    "permalink": "/features/process-trace-chart"
+    "title": "Rules",
+    "permalink": "/features/rules"
   }
 }

@@ -9,11 +9,11 @@
   "permalink": "/features/test-logs",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 7,
+  "sidebarPosition": 9,
   "frontMatter": {
     "title": "↳ Test logs",
     "slug": "/features/test-logs",
-    "sidebar_position": 7
+    "sidebar_position": 9
   },
   "sidebar": "sidebar",
   "previous": {
@@ -21,7 +21,7 @@
     "permalink": "/features/test-runs"
   },
   "next": {
-    "title": "Rules",
-    "permalink": "/features/rules"
+    "title": "Team management",
+    "permalink": "/features/team-management"
   }
 }

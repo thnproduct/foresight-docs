@@ -9,16 +9,16 @@
   "permalink": "/features/team-management",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 9,
+  "sidebarPosition": 10,
   "frontMatter": {
     "title": "Team management",
     "slug": "/features/team-management",
-    "sidebar_position": 9
+    "sidebar_position": 10
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Rules",
-    "permalink": "/features/rules"
+    "title": "↳ Test logs",
+    "permalink": "/features/test-logs"
   },
   "next": {
     "title": "Change impact analysis",

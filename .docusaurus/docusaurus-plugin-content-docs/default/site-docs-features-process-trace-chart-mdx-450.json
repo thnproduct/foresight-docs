@@ -17,11 +17,11 @@
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "↳ Workflow metrics",
-    "permalink": "/features/workflow-metrics"
+    "title": "Pull request view",
+    "permalink": "/features/pull-request-view"
   },
   "next": {
-    "title": "Test runs",
-    "permalink": "/features/test-runs"
+    "title": "↳ Pull request comments",
+    "permalink": "/features/pull-request-comments"
   }
 }
