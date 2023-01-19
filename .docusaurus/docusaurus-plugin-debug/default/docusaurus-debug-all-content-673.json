@@ -251,7 +251,7 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Workflow dashboard",
+                "title": "🆕 Workflow dashboard",
                 "permalink": "/features/workflow-dashboard"
               },
               "next": {
@@ -336,7 +336,7 @@
                 "permalink": "/features/highlights"
               },
               "next": {
-                "title": "Workflow dashboard",
+                "title": "🆕 Workflow dashboard",
                 "permalink": "/features/workflow-dashboard"
               }
             },
@@ -397,8 +397,8 @@
             {
               "unversionedId": "features/workflow-dashboard",
               "id": "features/workflow-dashboard",
-              "title": "Workflow dashboard",
-              "description": "Docs in progress",
+              "title": "🆕 Workflow dashboard",
+              "description": "Foresight's workflows dashboard is designed to help users easily monitor and track the performance of workflows over time.",
               "source": "@site/docs/features/workflow-dashboard.mdx",
               "sourceDirName": "features",
               "slug": "/features/workflow-dashboard",
@@ -407,7 +407,7 @@
               "version": "current",
               "sidebarPosition": 3,
               "frontMatter": {
-                "title": "Workflow dashboard",
+                "title": "🆕 Workflow dashboard",
                 "slug": "/features/workflow-dashboard",
                 "sidebar_position": 3
               },

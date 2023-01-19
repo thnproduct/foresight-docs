@@ -78,7 +78,7 @@
           },
           {
             "type": "link",
-            "label": "Workflow dashboard",
+            "label": "🆕 Workflow dashboard",
             "href": "/features/workflow-dashboard",
             "docId": "features/workflow-dashboard"
           },
@@ -311,8 +311,8 @@
     },
     "features/workflow-dashboard": {
       "id": "features/workflow-dashboard",
-      "title": "Workflow dashboard",
-      "description": "Docs in progress",
+      "title": "🆕 Workflow dashboard",
+      "description": "Foresight's workflows dashboard is designed to help users easily monitor and track the performance of workflows over time.",
       "sidebar": "sidebar"
     },
     "features/workflow-metrics": {
