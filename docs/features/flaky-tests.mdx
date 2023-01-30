@@ -1,0 +1,99 @@
+---
+title: ↳ Flaky tests
+slug: /features/flaky-tests
+sidebar_position: 3
+---
+# Flaky tests 
+
+## What is a Flaky test?
+Flaky tests are tests that fail or succeed seemingly randomly when executed on the exact same code. 
+
+## How Foresight detects flaky tests
+You need to integrate Foresight's Test Kit action into your CI pipeline. Then, Foresight automatically captures your
+test report and shows you the details of your tests and test suite performance. 
+
+In order Foresight to detect a failed test, a test case needs to be re-ran until it succeed. For instance:
+- ❌ Test failed, re-run
+- ❌ Test failed, re-run
+- ✅ Test succeed. Foresight marks this test case as **flaky** on that test run. 
+
+
+In the test suite details, you will see **Flakiness Severity**
+- **Urgent:** test marked as flaky more than 75% of the test runs
+- **High:** test marked as flaky more than 50% of the test runs
+- **Mid:** test marked as flaky more than 25% of the test runs
+- **Low:** test marked as at least 1 time
+
+
+## How to identify flaky tests in Foresight
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tzpeW_NEcks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Language support
+:::info
+A test needs to be a re-ran in case a failure to marked as flaky. You can find some retry plugins and libraries for different languages. 
+:::
+### Cypress
+
+#### Foresight Test Kit Configuration
+You need to use CYPRESS with JSON format. In order Cypress to generate JSON file, you need to add `|& tee results.json` after your test command.
+```yaml 
+## Example Foresight Test Kit Configuration for JEST / JSON
+...
+    test_framework: CYPRESS
+    test_format: JSON
+...
+```
+#### Example test command for Cypress
+```javascript
+cypress run --record false --reporter json |& tee results.json
+```
+
+### Jest
+
+#### Foresight Test Kit Configuration
+You need to use JEST with JSON format.
+
+```yaml 
+## Example Foresight Test Kit Configuration for JEST / JSON
+...
+    test_framework: JEST
+    test_format: JSON
+...
+```
+
+You can set a global retry mechanism as following:
+- Add a file as `setup.jest.js` and add the following:
+```javascript
+// you can change 3 as your retry preference
+jest.retryTimes(3)
+```
+- Go to `jest.config.js`
+- Add `setupFilesAfterEnv: [‘./setup-jest.js’]`
+
+### Pytest
+
+#### Foresight Test Kit Configuration
+You need to use PYTEST with JSON format.
+
+```yaml 
+## Example Foresight Test Kit Configuration for PYTEST / JSON
+...
+    test_framework: PYTEST
+    test_format: JSON
+...
+```
+
+#### pytest-rerunfailures
+`pytest-rerunfailures` is a plugin for pytest that re-runs tests to eliminate intermittent failures.
+
+```python
+pip install pytest-rerunfailures
+```
+
+After installing `pytest-rerunfailures` you can set its rerun count as a variable:
+```python
+pytest --reruns 5 --json-report --json-report-file=report.json
+```
+
+### Mocha
+### Golang

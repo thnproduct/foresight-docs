@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','aba'),
+    component: ComponentCreator('/','f0e'),
     routes: [
       {
         path: '/',
@@ -135,6 +135,12 @@ export default [
       {
         path: '/features/analyze-code-change-impact',
         component: ComponentCreator('/features/analyze-code-change-impact','6c6'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/features/flaky-tests',
+        component: ComponentCreator('/features/flaky-tests','0bf'),
         exact: true,
         'sidebar': "sidebar"
       },

@@ -78,6 +78,12 @@
           },
           {
             "type": "link",
+            "label": "↳ Flaky tests",
+            "href": "/features/flaky-tests",
+            "docId": "features/flaky-tests"
+          },
+          {
+            "type": "link",
             "label": "🆕 Workflow dashboard",
             "href": "/features/workflow-dashboard",
             "docId": "features/workflow-dashboard"
@@ -253,6 +259,12 @@
       "id": "features/change-impact-analysis",
       "title": "Change impact analysis",
       "description": "Foresight correlates the changes to the codebase with the test coverage reports to determine",
+      "sidebar": "sidebar"
+    },
+    "features/flaky-tests": {
+      "id": "features/flaky-tests",
+      "title": "↳ Flaky tests",
+      "description": "What is a Flaky test?",
       "sidebar": "sidebar"
     },
     "features/highlights": {

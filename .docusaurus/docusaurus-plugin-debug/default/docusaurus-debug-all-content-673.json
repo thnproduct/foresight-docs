@@ -152,6 +152,33 @@
               }
             },
             {
+              "unversionedId": "features/flaky-tests",
+              "id": "features/flaky-tests",
+              "title": "↳ Flaky tests",
+              "description": "What is a Flaky test?",
+              "source": "@site/docs/features/flaky-tests.mdx",
+              "sourceDirName": "features",
+              "slug": "/features/flaky-tests",
+              "permalink": "/features/flaky-tests",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "title": "↳ Flaky tests",
+                "slug": "/features/flaky-tests",
+                "sidebar_position": 3
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "🆕 Test dashboard",
+                "permalink": "/features/test-dashboard"
+              },
+              "next": {
+                "title": "🆕 Workflow dashboard",
+                "permalink": "/features/workflow-dashboard"
+              }
+            },
+            {
               "unversionedId": "features/highlights",
               "id": "features/highlights",
               "title": "Highlights",
@@ -336,8 +363,8 @@
                 "permalink": "/features/highlights"
               },
               "next": {
-                "title": "🆕 Workflow dashboard",
-                "permalink": "/features/workflow-dashboard"
+                "title": "↳ Flaky tests",
+                "permalink": "/features/flaky-tests"
               }
             },
             {
@@ -413,8 +440,8 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "🆕 Test dashboard",
-                "permalink": "/features/test-dashboard"
+                "title": "↳ Flaky tests",
+                "permalink": "/features/flaky-tests"
               },
               "next": {
                 "title": "Pull request view",
@@ -842,6 +869,10 @@
                   {
                     "type": "doc",
                     "id": "features/test-dashboard"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "features/flaky-tests"
                   },
                   {
                     "type": "doc",

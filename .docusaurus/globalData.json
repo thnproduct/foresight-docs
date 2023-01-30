@@ -36,6 +36,11 @@
               "sidebar": "sidebar"
             },
             {
+              "id": "features/flaky-tests",
+              "path": "/features/flaky-tests",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "features/highlights",
               "path": "/features/highlights",
               "sidebar": "sidebar"
