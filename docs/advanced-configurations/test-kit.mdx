@@ -23,17 +23,21 @@ Foresight analyzes your test and coverage report artifacts.
 
 ### Available test framework and report pairs
 
-| Test framework | Report format  |
-|----------------|----------------|
-|TESTNG|n/a*|
-|CYPRESS<sup>1</sup>|JUNIT|
-|JUNIT|n/a*|
-|JEST|JUNIT|
-|PYTEST|JUNIT|
-|XUNIT2|n/a*|
-|XUNIT2|TRX|
-|GOLANG|JSON|
-|GOLANG|TEXT|
+| Test framework | Report format  | Flaky support |
+|----------------|----------------|----------------|
+|CYPRESS<sup>1</sup>|JSON| [Yes](/features/flaky-tests#cypress) |
+|CYPRESS<sup>1</sup>|JUNIT| No |
+|JUNIT|JSON| [Yes](/features/flaky-tests#cypress) | 
+|JUNIT|TXT| No |
+|JEST|JSON| [Yes](/features/flaky-tests#jest) | 
+|JEST|JUNIT| No | 
+|PYTEST|JSON| [Yes](/features/flaky-tests#pytest) |
+|PYTEST|JUNIT| No |
+|XUNIT2|n/a*| No |
+|XUNIT2|TRX| No |
+|GOLANG|JSON| [Yes](/features/flaky-tests#golang) |
+|GOLANG|TEXT| No |
+|TESTNG|n/a*| No |
 
 :::info
 You don't need to fill report format fields marked as **n/a**.

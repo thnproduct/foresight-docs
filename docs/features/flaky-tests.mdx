@@ -6,36 +6,39 @@ sidebar_position: 3
 # Flaky tests 
 
 ## What is a Flaky test?
-Flaky tests are tests that fail or succeed seemingly randomly when executed on the exact same code. 
+Flaky tests are tests that fail to produce a consistent result, despite no changes to the code or the test itself. [Learn more from our blog](https://www.runforesight.com/blog/5-causes-of-flaky-tests-and-how-to-mitigate-them).
 
-## How Foresight detects flaky tests
-You need to integrate Foresight's Test Kit action into your CI pipeline. Then, Foresight automatically captures your
+## How Foresight detects flaky tests?
+:::info PREREQUISITE 
+You need to integrate [Foresight's Test Kit](/advanced-configuration/test-kit) action into your CI pipeline. Then, Foresight automatically captures your
 test report and shows you the details of your tests and test suite performance. 
+:::
 
-In order Foresight to detect a failed test, a test case needs to be re-ran until it succeed. For instance:
+In order Foresight to detect a failed test, a test case needs to be re-ran until it succeeds, with no code change. For instance:
 - ❌ Test failed, re-run
 - ❌ Test failed, re-run
 - ✅ Test succeed. Foresight marks this test case as **flaky** on that test run. 
 
 
-In the test suite details, you will see **Flakiness Severity**
+You can find **Flakiness Severity** inside the test suite details.
 - **Urgent:** test marked as flaky more than 75% of the test runs
 - **High:** test marked as flaky more than 50% of the test runs
 - **Mid:** test marked as flaky more than 25% of the test runs
-- **Low:** test marked as at least 1 time
+- **Low:** test marked as flaky at least 1 time.
 
 
-## How to identify flaky tests in Foresight
+## Detect flaky tests in a minute!
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tzpeW_NEcks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-## Language support
+## Language & framework support
 :::info
-A test needs to be a re-ran in case a failure to marked as flaky. You can find some retry plugins and libraries for different languages. 
+A test needs to be a re-ran in case a failure to marked as flaky. You will find some retry & rerun plugin examples for different language options. However,
+you can use other rerun plugins too. 
 :::
 ### Cypress
 
 #### Foresight Test Kit Configuration
-You need to use CYPRESS with JSON format. In order Cypress to generate JSON file, you need to add `|& tee results.json` after your test command.
+You need to use CYPRESS with JSON format. In order Cypress to generate JSON file, you can achieve this by adding `|& tee results.json` after your test command.
 ```yaml 
 ## Example Foresight Test Kit Configuration for JEST / JSON
 ...
@@ -61,8 +64,8 @@ You need to use JEST with JSON format.
 ...
 ```
 
-You can set a global retry mechanism as following:
-- Add a file as `setup.jest.js` and add the following:
+You can set a global retry mechanism:
+- Create a file named `setup.jest.js` and add the following:
 ```javascript
 // you can change 3 as your retry preference
 jest.retryTimes(3)
