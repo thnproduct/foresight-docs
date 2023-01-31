@@ -57,11 +57,6 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://app.runforesight.live",
-          "label": "Playground",
-          "position": "left"
-        },
-        {
           "href": "https://runforesight.com/pricing",
           "label": "Pricing",
           "position": "left"
