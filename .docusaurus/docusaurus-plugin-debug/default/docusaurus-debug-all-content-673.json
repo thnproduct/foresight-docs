@@ -505,8 +505,8 @@
             {
               "unversionedId": "integrations/grafana",
               "id": "integrations/grafana",
-              "title": "Grafana",
-              "description": "Foresight panel plugin lets you to bring Foresight features to Grafana. There is a lot of room for improvement and your feedback are highly appreciated. Foresight Grafana plugin is unsigned and requires steps below to setup.",
+              "title": "Grafana GitHub Actions Dashboard",
+              "description": "Foresight panel plugin lets you to bring Foresight features to Grafana. Foresight Grafana plugin is unsigned and requires steps below to setup.",
               "source": "@site/docs/integrations/grafana.mdx",
               "sourceDirName": "integrations",
               "slug": "/integrations/grafana",
@@ -546,7 +546,7 @@
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Grafana",
+                "title": "Grafana GitHub Actions Dashboard",
                 "permalink": "/integrations/grafana"
               },
               "next": {
@@ -758,7 +758,7 @@
                 "permalink": "/use-cases/identify-flaky-tests"
               },
               "next": {
-                "title": "Grafana",
+                "title": "Grafana GitHub Actions Dashboard",
                 "permalink": "/integrations/grafana"
               }
             },
