@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/','f0e'),
+    component: ComponentCreator('/','2f7'),
     routes: [
       {
         path: '/',
@@ -237,6 +237,12 @@ export default [
       {
         path: '/how-to/troubleshooting',
         component: ComponentCreator('/how-to/troubleshooting','27e'),
+        exact: true,
+        'sidebar': "sidebar"
+      },
+      {
+        path: '/integrations/grafana',
+        component: ComponentCreator('/integrations/grafana','e74'),
         exact: true,
         'sidebar': "sidebar"
       },

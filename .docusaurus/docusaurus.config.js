@@ -19,14 +19,14 @@ export default {
       {
         "docs": {
           "routeBasePath": "/",
-          "sidebarPath": "/Users/burakkantarci/Dev/foresight-docs/sidebars.js",
+          "sidebarPath": "/Users/bariskaya/dev/thundra/foresight-docs/sidebars.js",
           "sidebarCollapsible": true
         },
         "blog": {
           "showReadingTime": true
         },
         "theme": {
-          "customCss": "/Users/burakkantarci/Dev/foresight-docs/src/css/custom.css"
+          "customCss": "/Users/bariskaya/dev/thundra/foresight-docs/src/css/custom.css"
         }
       }
     ]

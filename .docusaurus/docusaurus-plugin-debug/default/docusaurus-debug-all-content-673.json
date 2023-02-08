@@ -12,9 +12,9 @@
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/burakkantarci/Dev/foresight-docs/sidebars.js",
-          "contentPath": "/Users/burakkantarci/Dev/foresight-docs/docs",
-          "contentPathLocalized": "/Users/burakkantarci/Dev/foresight-docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/bariskaya/dev/thundra/foresight-docs/sidebars.js",
+          "contentPath": "/Users/bariskaya/dev/thundra/foresight-docs/docs",
+          "contentPathLocalized": "/Users/bariskaya/dev/thundra/foresight-docs/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "advanced-configurations/cypress-test-reports",
@@ -503,6 +503,32 @@
               }
             },
             {
+              "unversionedId": "integrations/grafana",
+              "id": "integrations/grafana",
+              "title": "Grafana",
+              "description": "Foresight panel plugin lets you to bring Foresight features to Grafana. There is a lot of room for improvement and your feedback are highly appreciated. Foresight Grafana plugin is unsigned and requires steps below to setup.",
+              "source": "@site/docs/integrations/grafana.mdx",
+              "sourceDirName": "integrations",
+              "slug": "/integrations/grafana",
+              "permalink": "/integrations/grafana",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1,
+                "slug": "/integrations/grafana"
+              },
+              "sidebar": "sidebar",
+              "previous": {
+                "title": "Detect failed tests",
+                "permalink": "/use-cases/detect-failed-tests"
+              },
+              "next": {
+                "title": "Slack",
+                "permalink": "/integrations/slack"
+              }
+            },
+            {
               "unversionedId": "integrations/slack",
               "id": "integrations/slack",
               "title": "Slack",
@@ -513,15 +539,15 @@
               "permalink": "/integrations/slack",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 1,
+              "sidebarPosition": 2,
               "frontMatter": {
-                "sidebar_position": 1,
+                "sidebar_position": 2,
                 "slug": "/integrations/slack"
               },
               "sidebar": "sidebar",
               "previous": {
-                "title": "Detect failed tests",
-                "permalink": "/use-cases/detect-failed-tests"
+                "title": "Grafana",
+                "permalink": "/integrations/grafana"
               },
               "next": {
                 "title": "Dynamically generated test badges",
@@ -732,8 +758,8 @@
                 "permalink": "/use-cases/identify-flaky-tests"
               },
               "next": {
-                "title": "Slack",
-                "permalink": "/integrations/slack"
+                "title": "Grafana",
+                "permalink": "/integrations/grafana"
               }
             },
             {
@@ -950,6 +976,10 @@
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
+                  {
+                    "type": "doc",
+                    "id": "integrations/grafana"
+                  },
                   {
                     "type": "doc",
                     "id": "integrations/slack"

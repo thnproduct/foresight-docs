@@ -101,6 +101,11 @@
               "sidebar": "sidebar"
             },
             {
+              "id": "integrations/grafana",
+              "path": "/integrations/grafana",
+              "sidebar": "sidebar"
+            },
+            {
               "id": "integrations/slack",
               "path": "/integrations/slack",
               "sidebar": "sidebar"

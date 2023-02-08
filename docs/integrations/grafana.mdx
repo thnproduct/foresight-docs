@@ -1,0 +1,41 @@
+---
+sidebar_position: 1
+slug: /integrations/grafana
+---
+
+# Grafana
+
+
+ <img src="/img/features/grafana/grafana-plugin.gif" alt="Foresight Panel" />
+
+ <br /><br />
+
+Foresight panel plugin lets you to bring Foresight features to Grafana. There is a lot of room for improvement and your feedback are highly appreciated. Foresight Grafana plugin is unsigned and requires steps below to setup.
+ <br /><br />
+
+import {Step} from '@site/src/components/Step';
+import {Container} from '@site/src/components/Container';
+
+
+<Container>
+  <Step step="1" stepHeader="Download Foresight Grafana plugin">
+      <Card title="Plugin Archive">
+        <a href="https://4750167.fs1.hubspotusercontent-na1.net/hubfs/4750167/Foresight%20Grafana/foresight-grafana-plugin.zip">Download Archive</a>
+      </Card>
+  </Step>
+  <Step step="2" stepHeader="Copy zip file and unzip under grafana/data/plugins folder">
+    <img src="/img/features/grafana/grafana-1.png" alt="Unzip file" />
+  </Step>
+  <Step step="3" stepHeader="Edit defaults.ini and add foresight-panel to allowed plugins list">
+    Restart Grafana after this process.
+    <img src="/img/features/grafana/grafana-2.png" alt="Edit allowed plugins list" />
+  </Step>
+  <Step step="4" stepHeader="Copy your API Key">
+    Follow the instructions <a href="https://docs.runforesight.com/how-to/get-api-key">given here</a> to get your API KEY.
+  </Step>
+  <Step step="5" stepHeader="Add Foresight panel to Grafana Dashboard">
+    Paste your API Key to Foresight API KEY field and you are good to go.
+    <br /><br />
+    <img src="/img/features/grafana/grafana-add-plugin.gif" alt="Add Foresight Panel" />
+  </Step>
+</Container>

@@ -190,6 +190,12 @@
         "items": [
           {
             "type": "link",
+            "label": "Grafana",
+            "href": "/integrations/grafana",
+            "docId": "integrations/grafana"
+          },
+          {
+            "type": "link",
             "label": "Slack",
             "href": "/integrations/slack",
             "docId": "integrations/slack"
@@ -337,6 +343,12 @@
       "id": "features/workflow-runs",
       "title": "Workflow runs",
       "description": "With Foresight, you can easily list your and analyze your CI workflows in a repository. Foresight provides a high-level",
+      "sidebar": "sidebar"
+    },
+    "integrations/grafana": {
+      "id": "integrations/grafana",
+      "title": "Grafana",
+      "description": "Foresight panel plugin lets you to bring Foresight features to Grafana. There is a lot of room for improvement and your feedback are highly appreciated. Foresight Grafana plugin is unsigned and requires steps below to setup.",
       "sidebar": "sidebar"
     },
     "integrations/slack": {
