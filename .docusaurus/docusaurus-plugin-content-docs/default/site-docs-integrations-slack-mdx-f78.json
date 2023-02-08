@@ -9,15 +9,15 @@
   "permalink": "/integrations/slack",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 1,
+    "sidebar_position": 2,
     "slug": "/integrations/slack"
   },
   "sidebar": "sidebar",
   "previous": {
-    "title": "Detect failed tests",
-    "permalink": "/use-cases/detect-failed-tests"
+    "title": "Grafana GitHub Actions Dashboard",
+    "permalink": "/integrations/grafana"
   },
   "next": {
     "title": "Dynamically generated test badges",
