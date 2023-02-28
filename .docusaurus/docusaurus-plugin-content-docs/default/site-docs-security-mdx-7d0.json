@@ -7,6 +7,7 @@
   "sourceDirName": ".",
   "slug": "/security",
   "permalink": "/security",
+  "draft": false,
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,

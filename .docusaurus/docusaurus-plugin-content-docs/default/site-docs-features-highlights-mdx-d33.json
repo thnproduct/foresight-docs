@@ -7,6 +7,7 @@
   "sourceDirName": "features",
   "slug": "/features/highlights",
   "permalink": "/features/highlights",
+  "draft": false,
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,

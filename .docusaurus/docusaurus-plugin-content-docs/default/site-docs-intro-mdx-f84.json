@@ -7,6 +7,7 @@
   "sourceDirName": ".",
   "slug": "/",
   "permalink": "/",
+  "draft": false,
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,

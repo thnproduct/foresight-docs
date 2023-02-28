@@ -24,7 +24,7 @@
           }
         ],
         "readingTime": 0.405,
-        "truncated": false,
+        "hasTruncateMarker": false,
         "authors": [
           {
             "name": "Sébastien Lorber",
@@ -77,7 +77,7 @@
           }
         ],
         "readingTime": 0.175,
-        "truncated": false,
+        "hasTruncateMarker": false,
         "authors": [
           {
             "name": "Sébastien Lorber",
@@ -128,7 +128,7 @@
           }
         ],
         "readingTime": 2.05,
-        "truncated": true,
+        "hasTruncateMarker": true,
         "authors": [
           {
             "name": "Endilie Yacop Sucipto",
@@ -178,7 +178,7 @@
           }
         ],
         "readingTime": 0.12,
-        "truncated": false,
+        "hasTruncateMarker": false,
         "authors": [
           {
             "name": "Gao Wei",

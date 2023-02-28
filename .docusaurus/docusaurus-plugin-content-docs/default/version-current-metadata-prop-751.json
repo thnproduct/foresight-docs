@@ -4,6 +4,7 @@
   "label": "Next",
   "banner": null,
   "badge": false,
+  "noIndex": false,
   "className": "docs-version-current",
   "isLast": true,
   "docsSidebars": {
@@ -252,7 +253,7 @@
     "advanced-configurations/workflow-kit": {
       "id": "advanced-configurations/workflow-kit",
       "title": "Workflow kit",
-      "description": "A GitHub Action to track and monitor the resource metrics of your GitHub Action workflow runs. If the run is triggered via a Pull Request, it will create a comment on the connected PR with the results and/or publishes the results to the job summary. The action collects the following metrics:",
+      "description": "Foresight's Workflow Kit is to track and monitor the resource metrics of your GitHub Action workflow runs.",
       "sidebar": "sidebar"
     },
     "examples": {
@@ -348,7 +349,7 @@
     "integrations/grafana": {
       "id": "integrations/grafana",
       "title": "Grafana GitHub Actions Dashboard",
-      "description": "Foresight panel plugin lets you to bring Foresight features to Grafana. Foresight Grafana plugin is unsigned and requires steps below to setup.",
+      "description": "Foresight panel plugin lets you to bring Foresight features to Grafana.",
       "sidebar": "sidebar"
     },
     "integrations/slack": {

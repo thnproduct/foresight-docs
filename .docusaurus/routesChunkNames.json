@@ -1,28 +1,52 @@
 {
-  "/__docusaurus/debug-3d6": {
-    "component": "component---theme-debug-config-23-a-2ff"
+  "/__docusaurus/debug-55e": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugac-6-13a"
+    }
   },
-  "/__docusaurus/debug/config-914": {
-    "component": "component---theme-debug-config-23-a-2ff"
+  "/__docusaurus/debug/config-a81": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugac-6-13a"
+    }
   },
-  "/__docusaurus/debug/content-c28": {
-    "component": "component---theme-debug-contentba-8-ce7",
+  "/__docusaurus/debug/content-d2d": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugac-6-13a"
+    },
     "allContent": "allContent---docusaurus-debug-content-246-9aa"
   },
-  "/__docusaurus/debug/globalData-3cf": {
-    "component": "component---theme-debug-global-dataede-0fa"
+  "/__docusaurus/debug/globalData-567": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugac-6-13a"
+    }
   },
-  "/__docusaurus/debug/metadata-31b": {
-    "component": "component---theme-debug-site-metadata-68-e-3d4"
+  "/__docusaurus/debug/metadata-35a": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugac-6-13a"
+    }
   },
-  "/__docusaurus/debug/registry-0da": {
-    "component": "component---theme-debug-registry-679-501"
+  "/__docusaurus/debug/registry-421": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugac-6-13a"
+    }
   },
-  "/__docusaurus/debug/routes-244": {
-    "component": "component---theme-debug-routes-946-699"
+  "/__docusaurus/debug/routes-139": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugac-6-13a"
+    }
   },
-  "/blog-520": {
-    "component": "component---theme-blog-list-pagea-6-a-7ba",
+  "/blog-d78": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---blog-0-d-5-840"
+    },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
@@ -40,32 +64,50 @@
     ],
     "metadata": "metadata---blogb-2-b-df1"
   },
-  "/blog/archive-f4c": {
-    "component": "component---theme-blog-archive-page-9-e-4-1d8",
+  "/blog/archive-e10": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---blog-0-d-5-840"
+    },
     "archive": "archive---blog-archiveb-2-f-393"
   },
-  "/blog/first-blog-post-6c7": {
-    "component": "component---theme-blog-post-pageccc-cab",
+  "/blog/first-blog-post-7af": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-0-d-5-840"
+    },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-first-blog-poste-27-4a1"
   },
-  "/blog/long-blog-post-f06": {
-    "component": "component---theme-blog-post-pageccc-cab",
+  "/blog/long-blog-post-28d": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-0-d-5-840"
+    },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-long-blog-post-736-bc7"
   },
-  "/blog/mdx-blog-post-bee": {
-    "component": "component---theme-blog-post-pageccc-cab",
+  "/blog/mdx-blog-post-e42": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-0-d-5-840"
+    },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-mdx-blog-post-593-37b"
   },
-  "/blog/tags-e13": {
-    "component": "component---theme-blog-tags-list-page-01-a-d0b",
+  "/blog/tags-85d": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---blog-0-d-5-840"
+    },
     "sidebar": "sidebar---blog-814-8ac",
     "tags": "tags---blog-tagsa-70-da2"
   },
-  "/blog/tags/docusaurus-a87": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
+  "/blog/tags/docusaurus-1b9": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-0-d-5-840"
+    },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
@@ -81,22 +123,28 @@
         "content": "content---blog-925-e00"
       }
     ],
-    "metadata": "metadata---blog-tags-docusaurusa-80-728",
+    "tag": "tag---blog-tags-docusaurusa-80-728",
     "listMetadata": "listMetadata---blog-tags-docusaurus-608-c09"
   },
-  "/blog/tags/facebook-d62": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
+  "/blog/tags/facebook-a25": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-0-d-5-840"
+    },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
         "content": "content---blog-766-e3c"
       }
     ],
-    "metadata": "metadata---blog-tags-facebook-031-c52",
+    "tag": "tag---blog-tags-facebook-031-c52",
     "listMetadata": "listMetadata---blog-tags-facebook-096-d31"
   },
-  "/blog/tags/hello-d09": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
+  "/blog/tags/hello-711": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-0-d-5-840"
+    },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
@@ -106,155 +154,167 @@
         "content": "content---blog-871-381"
       }
     ],
-    "metadata": "metadata---blog-tags-hello-30-a-bed",
+    "tag": "tag---blog-tags-hello-30-a-bed",
     "listMetadata": "listMetadata---blog-tags-hello-664-70a"
   },
-  "/blog/tags/hola-192": {
-    "component": "component---theme-blog-tags-posts-page-687-b6c",
+  "/blog/tags/hola-208": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-0-d-5-840"
+    },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
         "content": "content---blog-925-e00"
       }
     ],
-    "metadata": "metadata---blog-tags-holae-16-18a",
+    "tag": "tag---blog-tags-holae-16-18a",
     "listMetadata": "listMetadata---blog-tags-hola-4-c-9-a24"
   },
-  "/blog/welcome-bfa": {
-    "component": "component---theme-blog-post-pageccc-cab",
+  "/blog/welcome-a06": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---blog-0-d-5-840"
+    },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-welcomed-9-f-ffb"
   },
-  "/markdown-page-be1": {
-    "component": "component---theme-mdx-page-1-f-3-b90",
+  "/markdown-page-ccb": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---markdown-pagef-30-de8"
+    },
     "content": "content---markdown-page-393-028"
   },
-  "/-2f7": {
-    "component": "component---theme-doc-page-1-be-9be",
+  "/-143": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
+    "__context": {
+      "plugin": "plugin---090-2cd"
+    },
     "versionMetadata": "versionMetadata---935-fcf"
   },
   "/-206": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---f-84-df3"
   },
   "/advanced-configuration/test-kit-898": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---advanced-configuration-test-kit-4-f-5-47f"
   },
   "/advanced-configuration/workflow-kit-a37": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---advanced-configuration-workflow-kit-3-cb-958"
   },
   "/advanced-configurations/cypress-test-reports-234": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---advanced-configurations-cypress-test-reports-0-b-2-cd8"
   },
   "/examples-b2d": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---examples-675-0f7"
   },
   "/features/analyze-code-change-impact-6c6": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---features-analyze-code-change-impact-2-c-1-051"
   },
   "/features/flaky-tests-0bf": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---features-flaky-tests-9-b-6-ba6"
   },
   "/features/highlights-ad8": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---features-highlightsd-33-1c0"
   },
   "/features/process-trace-chart-ef1": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---features-process-trace-chart-450-4ba"
   },
   "/features/pull-request-comments-cde": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---features-pull-request-comments-926-bfc"
   },
   "/features/pull-request-view-68d": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---features-pull-request-view-21-a-6a1"
   },
   "/features/rules-0f6": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---features-rules-50-e-fbe"
   },
   "/features/team-management-e02": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---features-team-managementf-5-c-28a"
   },
   "/features/test-dashboard-cdd": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---features-test-dashboard-7-fb-149"
   },
   "/features/test-logs-6bf": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---features-test-logs-68-e-149"
   },
   "/features/test-runs-01c": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---features-test-runsc-21-fa1"
   },
   "/features/workflow-dashboard-061": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---features-workflow-dashboard-3-ed-c6b"
   },
   "/features/workflow-metrics-9a5": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---features-workflow-metrics-912-f01"
   },
   "/features/workflow-runs-c2d": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---features-workflow-runs-0-b-0-200"
   },
   "/how-to/badges-97a": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---how-to-badges-487-896"
   },
   "/how-to/get-api-key-cc6": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---how-to-get-api-keyf-14-050"
   },
   "/how-to/hide-forks-1e2": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---how-to-hide-forks-135-64e"
   },
   "/how-to/troubleshooting-27e": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---how-to-troubleshooting-1-c-8-d1d"
   },
   "/integrations/grafana-e74": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---integrations-grafanab-98-fc9"
   },
   "/integrations/slack-222": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---integrations-slackf-78-2b9"
   },
   "/security-64e": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---security-7-d-0-7d8"
   },
   "/step-by-step-guide-f0e": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---step-by-step-guide-07-e-bfd"
   },
   "/use-cases/detect-failed-tests-831": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---use-cases-detect-failed-testsacd-d53"
   },
   "/use-cases/identify-flaky-tests-3c0": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---use-cases-identify-flaky-tests-630-fcf"
   },
   "/use-cases/monitor-github-actions-4fc": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---use-cases-monitor-github-actionsafa-b5b"
   },
   "/use-cases/the-cost-of-missing-critical-ci-metrics-68c": {
-    "component": "component---theme-doc-item-178-a40",
+    "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---use-cases-the-cost-of-missing-critical-ci-metrics-917-5e5"
   }
 }

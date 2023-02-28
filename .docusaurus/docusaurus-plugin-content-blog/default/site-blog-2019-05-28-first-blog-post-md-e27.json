@@ -16,7 +16,7 @@
     }
   ],
   "readingTime": 0.12,
-  "truncated": false,
+  "hasTruncateMarker": false,
   "authors": [
     {
       "name": "Gao Wei",

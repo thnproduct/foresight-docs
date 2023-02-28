@@ -91,6 +91,7 @@ const config = {
     
 
     plugins: [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
        './plugins/tailwind-config.js',
        './plugins/heap.js',
        './plugins/optimize.js',
